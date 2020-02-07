@@ -1,5 +1,5 @@
 <?php
-namespace Console\Utils;
+namespace Console\Helpers;
 
 /**
  * show a status bar in the console

@@ -1,5 +1,5 @@
 <?php 
 
-require('utils/Color.php');
-require('utils/StatusBar.php');
-require('utils/Message.php');
+require('Helpers/Color.php');
+require('Helpers/StatusBar.php');
+require('Helpers/Message.php');

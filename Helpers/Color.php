@@ -1,5 +1,5 @@
 <?php
-namespace Console\Utils;
+namespace Console\Helpers;
 
 class Colors {
 	public static $foreground_colors = array();
@@ -64,4 +64,4 @@ class Colors {
 	}
 }
 
-new \Console\Utils\Colors();
+new \Console\Helpers\Colors();
