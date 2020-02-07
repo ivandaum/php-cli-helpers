@@ -33,7 +33,7 @@ class StatusBar {
     $index = (int) $options['number'];
     $length = (int) $options['total'];
     $complete = isset($options['complete']) ? $options['complete'] : null;
-    $width = isset($options['width']) ? isset($options['width']) : 60;
+    $width = isset($options['width']) ? isset($options['width']) : 30;
 
     static $startTime;
     if(empty($startTime)) $startTime = time();
@@ -48,7 +48,7 @@ class StatusBar {
       $bar .= str_repeat("░", $width - $progress);
     }
 
-    if($options['print']) {
+    if(isset($options['print'])) {
       $print = $options['print'];
 
       if(in_array('percent', $print)) {
